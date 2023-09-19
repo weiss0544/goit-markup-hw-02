@@ -12,7 +12,7 @@ body {
   font-family: var(--font-family-roboto);
 }
 
-header nav a {
+.logo {
   font-family: var(--font-family-raleway);
   font-size: 18px;
   font-style: normal;
