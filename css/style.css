@@ -13,29 +13,22 @@ body {
 }
 
 header nav a {
+  font-family: var(--font-family-raleway);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
-header nav a .logo-left {
+.logo-left {
   color: var(--iris);
-  font-family: var(--font-family-raleway);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
-header nav a .logo-right {
+.logo-right {
   color: var(--navy-blue);
-  font-family: var(--font-family-raleway);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 nav ul li a {
