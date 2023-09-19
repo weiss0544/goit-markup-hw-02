@@ -16,7 +16,7 @@ header nav a {
   text-decoration: none;
 }
 
-header nav a #logo-left {
+header nav a .logo-left {
   color: var(--iris);
   font-family: var(--font-family-raleway);
   font-size: 18px;
@@ -27,7 +27,7 @@ header nav a #logo-left {
   text-transform: uppercase;
 }
 
-header nav a #logo-right {
+header nav a .logo-right {
   color: var(--navy-blue);
   font-family: var(--font-family-raleway);
   font-size: 18px;
@@ -38,8 +38,18 @@ header nav a #logo-right {
   text-transform: uppercase;
 }
 
-nav ul > li {
+nav ul li a {
   color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+nav ul li .active {
+  color: var(--iris);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
