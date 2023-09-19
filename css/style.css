@@ -3,9 +3,47 @@
   --font-family-roboto: "Roboto", sans-serif;
   --slate: #434455;
   --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: ##404bbf;
 }
 
 body {
   background-color: #fff;
   font-family: var(--font-family-roboto);
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav a #logo-left {
+  color: var(--iris);
+  font-family: var(--font-family-raleway);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+header nav a #logo-right {
+  color: var(--navy-blue);
+  font-family: var(--font-family-raleway);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+header nav ul li {
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
