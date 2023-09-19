@@ -1,0 +1,11 @@
+:root {
+  --font-family-raleway: "Raleway", sans-serif;
+  --font-family-roboto: "Roboto", sans-serif;
+  --slate: #434455;
+  --navy-blue: #2e2f42;
+}
+
+body {
+  background-color: #fff;
+  font-family: var(--font-family-roboto);
+}
