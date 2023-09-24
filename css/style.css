@@ -52,6 +52,10 @@ nav ul li a {
   text-decoration-line: none;
 }
 
+nav ul li a:hover {
+  color: var(--ocean);
+}
+
 nav ul li .active {
   color: var(--iris);
   font-family: var(--font-family-roboto);
@@ -71,6 +75,10 @@ nav ul li .active {
   line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration-line: none;
+}
+
+.contact-info li a:hover {
+  color: var(--ocean);
 }
 
 .hero {
@@ -93,7 +101,9 @@ nav ul li .active {
   border: 0;
   border-radius: 4px;
   background: var(--iris);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+}
+.hero > button:hover {
+  background: var(--ocean);
 }
 
 /* header */
