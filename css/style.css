@@ -104,6 +104,7 @@ nav ul li .active {
 }
 .hero > button:hover {
   background: var(--ocean);
+  cursor:pointer;
 }
 
 /* header */
